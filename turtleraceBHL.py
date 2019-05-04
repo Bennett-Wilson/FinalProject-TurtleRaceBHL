@@ -25,13 +25,22 @@ def race():
 
 	turtle_lastname_list = ['Force', 'Torrent' ,'River', 'Wind', 'Flood', 'Party', 'Stampede', 'Rush', 'Blast', 'Star', 'Moon', 'Rampage', 'Spark', 'Thunder', 'Rain', 'Shower', 'Arrival', 'Gift', 'Blessing', 'Field', 'Stream', 'Mountain', 'Air', 'Water', 'Fire', 'Earth', 'Spirit', 'Chariot', 'Nova', 'Mystery']
 
-	tfirstname = (random.choice(turtle_firstname_list))
-	tlastname = (random.choice(turtle_lastname_list))
+	tfirstname1 = (random.choice(turtle_firstname_list))
+	tlastname1 = (random.choice(turtle_lastname_list))
 
-	turtle1name = tfirstname + " " + tlastname
-	turtle2name = tfirstname + " " + tlastname
-	turtle3name = tfirstname + " " + tlastname
-	turtle4name = tfirstname + " " + tlastname
+	tfirstname2 = (random.choice(turtle_firstname_list))
+	tlastname2 = (random.choice(turtle_lastname_list))
+
+	tfirstname3 = (random.choice(turtle_firstname_list))
+	tlastname3 = (random.choice(turtle_lastname_list))
+
+	tfirstname4 = (random.choice(turtle_firstname_list))
+	tlastname4 = (random.choice(turtle_lastname_list))
+
+	turtle1name = tfirstname1 + " " + tlastname1
+	turtle2name = tfirstname2 + " " + tlastname2
+	turtle3name = tfirstname3 + " " + tlastname3
+	turtle4name = tfirstname4 + " " + tlastname4
 
 	turtle1oddgen = random.randint(1,21)
 	turtle1odds = str (turtle1oddgen)
